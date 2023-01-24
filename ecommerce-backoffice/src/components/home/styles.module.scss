@@ -1,0 +1,43 @@
+
+.Home {
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.AboutUs,
+.carosel{
+    display: flex;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    margin: 10%;
+    h3{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        height: 20%;
+        width: 25%;
+        margin-left: 5% ;
+    }
+    p{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px 10px 15px;
+        letter-spacing: 1px;
+        margin-top: 10% ;
+        border-radius: 8px;
+        background-color: aliceblue;
+       
+
+    }
+    img{
+        margin-left: 5%;
+        width: 40%;
+        border-radius: 8px;
+    }
+}
