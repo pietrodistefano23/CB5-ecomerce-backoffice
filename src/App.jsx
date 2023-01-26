@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <div className="Content">
       <Navbar setRoute = {setRoute}/>
-      {console.log (route)}
       <Main route = {route}/>
       </div>
       

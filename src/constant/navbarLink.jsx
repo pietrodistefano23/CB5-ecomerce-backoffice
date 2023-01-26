@@ -14,8 +14,8 @@ export  const navbarLinks = [
     },
     {   
         id : 2 ,
-        label : 'Products',
-        route : 'products',
+        label : 'Categories',
+        route : 'categories',
         icon : <BiCloset />
     },
     {

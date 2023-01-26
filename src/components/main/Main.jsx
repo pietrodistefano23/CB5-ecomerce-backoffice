@@ -1,18 +1,20 @@
+
 import styles from './styles.module.scss'
+
 import Header from '../header';
 import Home from '../home';
-import ProductsList from '../productsList';
+import ProductsContainer from '../productsContainer';
+import LastMinute from '../LastMinute';
 import Carrello from '../carrello';
 import ContactUs from '../contactUs';
-const Main = ({route}) => {
 
+const Main = ({route}) => {
     return (
         <div className={styles.Main}>
             <Header />
-            {console.log(route)}
             {route === 'home' && <Home /> } 
-            {route === 'products' && <ProductsList /> }
-            {route === 'lastMinute' && <ProductsList /> }   
+            {route === 'categories' && <ProductsContainer /> }
+            {route === 'lastMinute' && <LastMinute /> }   
             {route === 'carrello' && <Carrello /> }
             {route === 'contact' && <ContactUs /> }
 
