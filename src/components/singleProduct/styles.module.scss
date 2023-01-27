@@ -1,0 +1,33 @@
+
+.Product{
+    width : 21%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+   
+  
+   
+    img{
+        width: 80%;
+        border-radius: 8px;
+        transition: all 0.35s;
+        &:hover{
+            width: 100%;
+        }
+        
+        
+        
+        
+       
+    }
+    
+
+    
+
+   
+   
+
+    
+}

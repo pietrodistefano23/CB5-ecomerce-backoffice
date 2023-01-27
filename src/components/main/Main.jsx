@@ -13,8 +13,8 @@ const Main = ({route}) => {
         <div className={styles.Main}>
             <Header />
             {route === 'home' && <Home /> } 
-            {route === 'categories' && <ProductsContainer /> }
-            {route === 'lastMinute' && <LastMinute /> }   
+            {route === 'categories' && <ProductsContainer/> }
+            {route === 'lastMinute' && <LastMinute  /> }   
             {route === 'carrello' && <Carrello /> }
             {route === 'contact' && <ContactUs /> }
 
